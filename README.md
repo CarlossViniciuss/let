@@ -206,6 +206,34 @@ Se a saída não estiver formatada corretamente:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
+### Fluxo de Trabalho com Branches
+
+Este projeto utiliza um fluxo de trabalho baseado em branches para desenvolvimento e testes:
+
+1. **Branch `main`**: Contém o código estável e pronto para produção
+2. **Branch `homolog`**: Ambiente de homologação para testar alterações antes de integrá-las à `main`
+
+Para contribuir:
+
+```bash
+# Clone o repositório
+git clone https://github.com/CarlossViniciuss/let.git
+cd let
+
+# Crie uma branch de feature a partir da homolog
+git checkout homolog
+git checkout -b feature/sua-feature
+
+# Faça suas alterações e commit
+git add .
+git commit -m "Descrição da sua alteração"
+
+# Envie para o repositório remoto
+git push origin feature/sua-feature
+```
+
+Em seguida, abra um Pull Request para a branch `homolog`. Após testes e aprovação, as alterações serão mescladas na branch `main`.
+
 ## 📄 Licença
 
 Este projeto está licenciado
