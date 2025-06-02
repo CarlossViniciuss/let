@@ -1,34 +1,35 @@
-# Let - Gerador de Testes Automatizados
+# 🧪 LetGen – Gerador de Cenários de Testes Automatizados com IA (Python)
 
-Uma biblioteca Python para geração automatizada de testes, utilizando IA para criar diferentes tipos de testes a partir de descrições em linguagem natural.
+[![PyPI version](https://badge.fury.io/py/letgen.svg)](https://badge.fury.io/py/letgen)
+![Python version](https://img.shields.io/pypi/pyversions/letgen)
+![License](https://img.shields.io/github/license/CarlossViniciuss/let)
 
-## 🚀 Sobre o Projeto
+LetGen é uma biblioteca Python para geração automatizada de testes, utilizando inteligência artificial (Groq API) para criar testes a partir de descrições em linguagem natural.
 
-O Let é uma ferramenta que utiliza a API da Groq para gerar automaticamente código de testes para diferentes frameworks de automação. Com apenas uma descrição em linguagem natural dos cenários de teste, o Let gera arquivos de teste completos, incluindo Page Objects e recursos necessários para cada framework suportado.
+---
 
-### Por que usar o Let?
+## 🚀 Por que usar o LetGen?
 
-- **Economia de tempo**: Gere rapidamente a estrutura básica de seus testes automatizados
-- **Facilidade de uso**: Interface simples via linha de comando
-- **Múltiplos frameworks**: Suporte para os frameworks de teste mais populares
-- **Código de qualidade**: Gera código seguindo as melhores práticas de cada framework
-- **Curva de aprendizado reduzida**: Ajuda iniciantes a criar testes com estrutura profissional
+- ⏱️ **Economia de tempo**: Crie rapidamente a estrutura dos testes automatizados
+- 💬 **Linguagem natural**: Descreva o cenário, o LetGen escreve o teste
+- ⚙️ **Multiplos frameworks**: Suporte a Pytest, Playwright, Robot e Behave
+- 🧠 **Boas práticas**: Geração de testes com POM e organização profissional
+- 📚 **Didático**: Ótimo para iniciantes aprenderem como estruturar testes
+
+---
 
 ## 📋 Requisitos
 
 - Python 3.7+
-- Uma chave de API da Groq (obtenha em https://console.groq.com/)
+- Chave da API Groq (https://console.groq.com/)
 - Conexão com a internet
+
+---
 
 ## 💻 Instalação
 
 ```bash
-# Clone o repositório
-git clone
-cd let
-
-# Instale o pacote em modo de desenvolvimento
-pip install -e .
+pip install letgen
 ```
 
 ## 🔧 Uso
